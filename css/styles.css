@@ -1,8 +1,12 @@
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: white;
-  font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    min-width: 82%;
+    width: 100%;
+    padding: 0px !important;
+    overflow-x: hidden;
 }
 
 /** HEADER **/
@@ -12,14 +16,24 @@ body {
   margin-top: 1px;
   margin: 10px
   height: 215px;
-  border-color: cornsilk;
+/*  border-color: cornsilk;*/
 }
 
-.root  {
+/*.root  {
  /* background-color: red;*/
-  padding: 10px;
-  text-align: center;
+/*  padding: 10px;
+  text-align: center;*/
+
 }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: red;
+  }
+  
+.navbar-default .navbar-toggle {
+    border-color: red;
+
+}       
 
 .navbar-default {
 background-color: #f8f8f8;
@@ -154,9 +168,9 @@ h5 {
 }
 
 #thunder {
-  background: url('../images/thunder.png') no-repeat;
+  background: url('../images/thundersm.png') no-repeat;
   text-align: center;
-  padding: 13em;
+  padding: 6em;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -239,7 +253,7 @@ p {
  .box {
   width: 50px;
   height: 50px;
-  border-radius: 50px;
+  border-radius: 2px;
   background-color: red;
   display: inline-flex;
  }
@@ -273,14 +287,194 @@ p {
     padding: 3em;
     background-color: black;
     margin-top: 7em;
+    border-radius: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
 
-  }  
+  .ourteam, .ourstory, .getinvolved {
+    color: white;
+  }
 
   #contact {
     line-height: 2em;
     float: right;
   }
+   
+   .copyright {   
+   font-size: 11px;
+   margin-top: -3em;
+   margin-left: 7em;
+}
 
+
+/******* Our Story Page ****************/
+
+
+.text-center {
+    text-align: center;
+    color: red;
+    margin-left: 9em;
+    background: url('../images/team.png') no-repeat;
+    padding: 2em;
+}
+
+
+#fahad {
+  background: url('../images/fahad3.png') no-repeat ;
+  padding: 20.5em;
+  left: -2em;
+}
+
+#sunny {
+  background: url('../images/sunny.png') no-repeat ;
+  padding: 10em;
+  left: -1em;
+  top: -122px;
+}
+
+#ayesha {
+  background: url('../images/ayesha2.png') no-repeat ;
+  padding: 15em;
+  left: -1em;
+  width: 106%;
+}
+
+#saad {
+  background: url('../images/saad.png') no-repeat ;
+  padding: 12em;
+  top: -155px;
+  left: -1em;
+
+}
+
+
+.container {
+    width: 60em;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+#aboutfahad {
+ position: relative;
+ margin-left: 10em;
+ width: 17em;
+ height: 5em;
+/* margin: 0 auto 0;*/
+}
+
+#aboutfahad h2 {
+  position: absolute;
+  margin: 0em;
+  font-family: monospace;
+  color: red;
+
+}
+
+#aboutfahad p {
+    width: 11em;
+    margin-right: auto;
+    margin-left: 2em;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    text-align: center;
+    border-style: hidden;
+    color: black;
+}
+
+#aboutsaad {
+  position: relative;
+  margin-left: 26em;
+  width: 15em;
+  height: 5em;
+
+}
+
+#aboutsaad h2 {
+  position: absolute;
+  margin: 0em;
+  font-family: monospace;
+  color: red;
+
+}
+
+#aboutsaad p {
+    width: 15em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    text-align: center;
+    margin-top: 1em;
+    border-color: black;
+    border-style: hidden;
+    color: black;
+}
+
+#aboutsunny {
+  position: relative;
+  margin-left: 27em;
+  width: 15em;
+  height: 5em;
+}
+
+#aboutsunny h2 {
+  position: absolute;
+  margin: 0em;
+  font-family: monospace;
+  color: red;
+}
+
+#aboutsunny p {
+    width: 16em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    border-color: black;
+    border-style: hidden;
+    color: black;
+}
+
+#aboutayesha {
+    position: relative;
+    margin-left: -5em;
+    width: 15em;
+    height: 5em;
+}
+
+#aboutayesha h2 {
+  position: absolute;
+  margin: -1em;
+  font-family: monospace;cursive;
+  color: red;
+}
+
+#aboutayesha p {
+    width: 19em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    border-style: hidden;
+    color: black;
+}
+
+/******** Join Us Section *************/
+
+
+.joinheading {
+  color: black;
+  padding: 3em;
+  text-align: center;
+  font-family: fantasy;
+}
 
 /******** Large Size ********/
 @media screen and (min-width: 1200px) {
@@ -293,10 +487,11 @@ p {
     }
 
   .musicinspired {
-    margin-left: 14em;
+    margin-left: auto;
     padding: 4em;
-    width: 42em;
-    margin-left: 20em;
+    width: fit-content;
+    margin-left: auto;
+    padding-right: 40em;
     
   }  
 }
@@ -325,8 +520,10 @@ p {
 
   .musicinspired {
   background: url('../images/musicinspiredwell.png') no-repeat;
-  margin-left: 16em;
-  margin-right: 12em;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-left: 35em;
 
   }
 
@@ -356,6 +553,7 @@ p {
 
    .navbar-right {
     float: right!important;
+    margin-right: 5em;
    }
 
    #nav-list a {
@@ -370,7 +568,7 @@ p {
  
 
  .logo {  
-  height: 15em;
+  height: 20em;
   margin-top: -2em;
   margin-left: 1em;
 
@@ -444,12 +642,12 @@ p {
 
  .navbar-right {
     float: right!important;
-    margin-right: -25px;
+    margin-right: 3em;
 
   }
 
   .logo {
-    height: 13em;
+    height: 17em;
     margin-top: -1em;
     margin-left: -1em;
 }
@@ -457,7 +655,7 @@ p {
 
 #header-nav {
     background-color: black;
-    border-radius: 5em;
+    border-radius: 7em;
     margin-top: 0em;
     margin-left: 0em;
     margin-right: 2em;
@@ -546,7 +744,11 @@ p {
 .musicinspired {
   background: url(../images/musicinspiredwellsmall.png) no-repeat;
   padding: 1.5em;
-  margin-left: 7.5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding-left: 12em;
+  padding-right: 2em;
   
 }
 
@@ -567,6 +769,292 @@ p {
  }
 
 
+.copyright {
+    font-size: 11px;
+    margin-top: -3em;
+    margin-left: 2em;
+ }   
+
+/****** About Us Page *****/
+
+
+
+#fahad {
+  background: url('../images/fahadmed.png') no-repeat ;
+  top: -6.5em;
 }
+
+#sunny {
+  background: url('../images/sunnymed.png') no-repeat ;
+  top: -267px;
+  margin-left: -1.5em;
+}
+
+#ayesha {
+  background: url('../images/ayesha2med.png') no-repeat ;
+  padding: 15em;
+  margin-top: -20em;
+  margin-left: -1em;
+}
+
+#saad {
+  background: url('../images/saadmed.png') no-repeat ;
+  top: -23em;
+  margin-left: -1.5em;
+}
+
+#aboutfahad {
+    position: relative;
+    margin-left: 1em;
+    margin-top: -8em;
+
+}
+
+#aboutfahad h2 {
+  position: absolute;
+  margin: 0em;
+
+}
+
+#aboutfahad p {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    text-align: center;
+    border-style: hidden;
+}
+
+#aboutsaad {
+  position: relative;
+  margin-left: 10em;
+  margin-top: -6em;
   
-/***
+}
+
+#aboutsaad h2 {
+  position: absolute;
+  margin: 0em;
+}
+
+#aboutsaad p {
+    width: 15em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    border-style: hidden;
+}
+
+#aboutsunny {
+  position: relative;
+  margin-left: 13em;
+  margin-top: -8em;
+}
+
+#aboutsunny h2 {
+  position: absolute;
+  margin: 0em;
+}
+
+#aboutsunny p {
+    width: 16em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    border-style: hidden;
+}
+
+#aboutayesha {
+    position: relative;
+    margin-left: -14em;
+    margin-top: -10em;
+}
+
+#aboutayesha h2 {
+  position: absolute;
+  margin: -0.5em;
+  left: 1em;
+
+}
+
+#aboutayesha p {
+    width: 19em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    border-style: hidden;
+}
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 7) **********/
+@media (max-width: 479px) {
+
+.copyright {
+    font-size: 11px;
+    margin-top: 1em;
+    margin-left: 2em;
+    width: auto;
+
+   } 
+
+   #wrapper {
+    width: auto;
+    margin-top: -1em;
+    margin-left: auto;
+    display: inherit; 
+   } 
+
+
+#decompress, #charge, #inspired { 
+  margin-left: 1em;
+
+}
+
+.panel-footer {
+  margin-top: 2em;
+  margin-left: -1em;
+}
+
+#thunder {
+ margin-left: 7em;
+}
+
+p {
+  border-color: red;
+  border-radius: 3em;
+  margin-right: -8em;
+  margin-top: 5em;
+}
+
+.musicinspired {
+ margin-left: 164.5px;
+}
+
+
+.text-center {
+   text-align: center;
+    color: red;
+    margin-right: -11em;
+    font-size: small;
+    margin-top: -13px;
+  }  
+
+/*** About Us Page *********/
+
+   .text-center {
+    margin-left: 11em;
+    background: url('../images/teamsm.png') no-repeat;
+    padding: 3em;
+}
+
+#fahad {
+  background: url('../images/fahadsmall4.png') no-repeat ;
+  top: -1.5em;
+}
+
+#sunny {
+  background: url('../images/sunnysmall2.png') no-repeat ;
+  top: -23.5em;
+  left: 0em;
+}
+
+#ayesha {
+  background: url('../images/ayesha2small.png') no-repeat ;
+  top: -3em;
+}
+
+#saad {
+  background: url('../images/saadsmall.png') no-repeat ;
+  top: -31em;
+  left: 0em;
+}
+
+#aboutfahad {
+    position: relative;
+    margin-left: -4em;
+   
+
+}
+
+#aboutfahad h2 {
+  position: absolute;
+  margin: 0em;
+  font-size: initial;
+
+}
+
+#aboutfahad p {
+    margin-right: auto;
+    margin-left: -1em;
+    padding: 0em;
+    position: absolute;
+    margin-top: 0em;
+    font-size: small;
+}
+
+#aboutsaad {
+  position: relative;
+  margin-left: 6em;
+  
+}
+
+#aboutsaad h2 {
+  position: absolute;
+  margin: 0em;
+  font-size: initial;
+}
+
+#aboutsaad p {
+    margin-right: auto;
+    margin-left: -2em;
+    position: absolute;
+    margin-top: -1em;
+    font-size: small;
+ }   
+
+#aboutsunny {
+  position: relative;
+  margin-left: 7em;
+  top: 3em;
+}
+
+#aboutsunny h2 {
+  position: absolute;
+  margin: 0em;
+  font-size: initial;
+}
+
+#aboutsunny p {
+    margin-left: -1em;
+    font-size: small;
+    margin-top: -1em;
+}
+
+#aboutayesha {
+    position: relative;
+    margin-left: -6em;
+    margin-top: -12em;
+}
+
+#aboutayesha h2 {
+  position: absolute;
+  margin-left: -10em;
+  font-size: initial;
+
+}
+
+#aboutayesha p {
+    margin-left: -12em;
+    position: absolute;
+    margin-top: .5em;
+    font-size: small ;
+}
+
