@@ -19,13 +19,6 @@ body {
 /*  border-color: cornsilk;*/
 }
 
-/*.root  {
- /* background-color: red;*/
-/*  padding: 10px;
-  text-align: center;*/
-
-}
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: red;
   }
@@ -308,7 +301,7 @@ p {
 }
 
 
-/******* Our Story Page ****************/
+/******* Our Team Page ****************/
 
 
 .text-center {
@@ -330,7 +323,7 @@ p {
   background: url('../images/sunny.png') no-repeat ;
   padding: 10em;
   left: -1em;
-  top: -122px;
+  top: -184px;
 }
 
 #ayesha {
@@ -343,7 +336,7 @@ p {
 #saad {
   background: url('../images/saad.png') no-repeat ;
   padding: 12em;
-  top: -155px;
+  top: -123px;
   left: -1em;
 
 }
@@ -466,6 +459,62 @@ p {
     color: black;
 }
 
+/******** OUR STORY PAGE **********/
+
+#ourstorypage {
+  color: red;
+  text-align:center;
+  display: grid;
+  grid-row-gap: 6em;
+  position: relative; 
+}
+
+#story2 {
+    margin-top: -2em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.vision {
+   background:url('../images/joybeatsthunder.png') no-repeat;
+    margin: 3em 0em 12em;
+    block-size: 100%;
+    width: 100%;
+}
+
+#thisis2 {
+    margin-top: -2em;
+    color: black;
+    background-color: red;
+    border: solid 14px;
+    font-family: monospace;
+    font-size: 3em;
+  }
+
+
+/* .musictwo {
+ text-align: center;
+ background-color: red;
+ display: inherit;
+ text-transform: unset;
+ padding-left: 0em;
+ padding-right: 0em;
+ font-size: 3em;
+ font-weight: bolder;
+ font-family: monospace;
+ width: 11em;
+ margin-left: -3em;
+ border-style: solid;
+}*/
+
+
+#storystory {
+  color: purple;
+  margin: -2em 2em 0em -6em;
+}
+
+
+
 /******** Join Us Section *************/
 
 
@@ -571,9 +620,6 @@ p {
   height: 20em;
   margin-top: -2em;
   margin-left: 1em;
-
-
-
  } 
 
 }
@@ -786,7 +832,7 @@ p {
 
 #sunny {
   background: url('../images/sunnymed.png') no-repeat ;
-  top: -267px;
+  top: -384px;
   margin-left: -1.5em;
 }
 
@@ -799,7 +845,7 @@ p {
 
 #saad {
   background: url('../images/saadmed.png') no-repeat ;
-  top: -23em;
+  top: -267px;
   margin-left: -1.5em;
 }
 
