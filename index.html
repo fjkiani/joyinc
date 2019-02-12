@@ -7,6 +7,7 @@
     <title>Joy INC.</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet"  href="css/styles.css"> 
+    <link rel="stylesheet"  href="css/animate.css"> 
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <style type="text/css">
 
@@ -23,17 +24,16 @@
   </head>
 <body>
   <header>
-    <div <span class="root"> warning!</span></div>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header ">
           <a href="index.html>
             <div img src="images/joybeatsthunder.jpg" class="logo"<a/></div>
           </a> 
 
           <div class="navbar-brand">
           <a href="index.html"  class="">
-          <img src="images/joybeatsthunder.png" class="logo"<a/>       
+          <img src="images/joybeatsthunder.png" class="logo js--wp-1"<a/>       
         </a>
         </div> 
        
@@ -46,10 +46,11 @@
       </button>
     </div>
 
+
     <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-               <a href="music.html">
+               <a class="js--scroll-to-music" href="#">
                 <span class="glyphicon glyphicon-music"></span><br id="music" class="hidden-xs"> </a>
             </li>
             <li>
@@ -63,43 +64,42 @@
     </nav> <!-- Header-Nfavv -->
   </header>
 
-  <div class="main-content" class="container">
+  <div class="main-content " class="container">
     <div class="jumbotron">
       <div h1 class="belief">Founded on a belief that<div class="music"> Music is Inspiring </div> </h1>
     </div>
-      
       <div class="thisis"></div>
-
-      <h3 class="red"> <div class="musicinspired" id="bottom_link"> </h3>
+          <h3 class="red"> <div class="musicinspired" id="bottom_link"> </h3>
       </div>
       <div class="container-fluid"> 
         <div class="col-12"> 
           <h5 Warning: This Product Can Be Addicting </h5> </div>
         <p> Music is known to cause happiness. It triggers dopamine neurotransmitters that make you feel happy. Beyond happiness, there is evidence that music can be good for your health and also drive productivity. Research shows the right tune can temper your feelings of anxiety, energize your limbs, and even boost your immune system.</p> </div>
-        <div class="container-fluid" id="thunder"></div>
+      <div id="thunder"></div>
     
-
-    <div id="bottom_link2" class="row home-tiles">
+    <!-- *******Working here for scroll effect****************** 
+ -->
+ <section class="row home-tiles section-music js--section-music">  
+    <div class="row js--wp-2">
     <div class="col-md-12 col-sm-12 col-xs-12">
         <a href="spotify:user:fjkiani:playlist:6rKFYUZV9XGUyriTgKKSKX"><div 
         id="decompress"></div></a>
       </div>
-      <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-md-12 col-sm-12 col-xs-12">
         <a href="spotify:user:fjkiani:playlist:6bGqfjKPLD9Db2JH5GZgMX"><div id="charge"></div></a>
          </div> 
-       
-        <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="col-md-12 col-sm-12 col-xs-12">
         <a href="spotify:user:fjkiani:playlist:2rR7ordRASLyrqIb81stwO"><div id="inspired"></div></a></div>
+
 
         <!-- <div class="col-md-12 col-sm-12 col-xs-12"> </div>
         <a href="menu-categories.html"><div id="joylife"><span>Get me inspired</span></div></a></div> -->
         
       <!--   <div class="spotify"><iframe src="https://open.spotify.com/embed/user/fjkiani/playlist/606bFrv32LxqhOaooqeVTZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div> -->
-      </div> 
-      </div>
      </div>
     </div>
   </div> <!-- end of main content --> 
+
 
   <footer class="panel-footer">
     <div class="container">
@@ -111,14 +111,14 @@
       </div> 
        <!-- <section id="getinvolved" class="col-sm-4">
          <span>Add Services later</span> </section> -->
-    <section div id="wrapper" class="col-sm-4">  
+    <div section div id="wrapper" class="col-sm-4, row">  
       <a href="https://www.instagram.com/joybeatstudio" target="_blank">
       <div class="box" id="instagram"></div></a>
       <a href="https://soundcloud.com/joybeats" target="_blank">
       <div class="box" id="soundcloud"></div></a>
       <div class="box" id="youtube"></div>
       <a href="spotify:user:fjkiani:playlist:606bFrv32LxqhOaooqeVTZ" target="_blank"><div class="box" id="spotify"></div></a>
-    </section>  
+    </section></div>  
     </div>
     </div>    
 
@@ -135,11 +135,13 @@
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
   <script id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3002/browser-sync/browser-sync-client.js?v=2.24.4'><\/script>".replace("HOST", location.hostname));
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.4'><\/script>".replace("HOST", location.hostname));
 //]]></script>
+
 </body>
 </html>

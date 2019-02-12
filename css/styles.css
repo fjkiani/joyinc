@@ -1,3 +1,4 @@
+
 body {
     font-size: 16px;
     color: #fff;
@@ -16,8 +17,10 @@ body {
   margin-top: 1px;
   margin: 10px
   height: 215px;
-/*  border-color: cornsilk;*/
+ 
 }
+
+
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: red;
@@ -216,7 +219,7 @@ p {
     height: 9em;
     margin-top: 5em;
     position: relative;
-   /* border: 13px solid red;*/
+    border: 13px solid red;
     overflow: hidden;
     width: 23em;
     margin-bottom: 2em;
@@ -231,6 +234,29 @@ p {
 
 
 }
+
+/********** ANIMATIONS ***************/
+.js--wp-1 {
+ -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-2 {
+ -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  opacity: 0;
+
+}
+
+.js--wp-1.animated {
+  opacity: 1;
+}
+
+.js--wp-2.animated {
+  opacity: 1;
+}
+
+
 
 
 /*Pannel Footer */
@@ -314,30 +340,35 @@ p {
 
 
 #fahad {
-  background: url('../images/fahad3.png') no-repeat ;
-  padding: 20.5em;
-  left: -2em;
+  background: url(../images/fahad3.png) no-repeat;
+  background-position: center;
+  height: -webkit-fill-available;
+  position: relative;
+  top: 5em;
 }
 
 #sunny {
-  background: url('../images/sunny.png') no-repeat ;
-  padding: 10em;
-  left: -1em;
-  top: -184px;
+  background: url(../images/sunny.png) no-repeat;
+  height: -webkit-fill-available;
+  background-position: center;
+  position: relative;
 }
 
 #ayesha {
-  background: url('../images/ayesha2.png') no-repeat ;
-  padding: 15em;
+  background: url(../images/ayesha2.png) no-repeat;
+  height: -webkit-fill-available;
   left: -1em;
-  width: 106%;
+  width: 120%;
+  top: 15em;
+  position: relative;
 }
 
 #saad {
-  background: url('../images/saad.png') no-repeat ;
-  padding: 12em;
-  top: -123px;
-  left: -1em;
+  background: url(../images/saad.png) no-repeat;
+  height: -webkit-fill-available;
+  background-position: center;
+  position: relative;
+  top: 2em;
 
 }
 
@@ -352,12 +383,11 @@ p {
 
 
 #aboutfahad {
- position: relative;
- margin-left: 10em;
- width: 17em;
- height: 5em;
-/* margin: 0 auto 0;*/
-}
+    position: relative;
+    width: 205px;
+    margin: auto;
+    margin-top: 43em;
+  }
 
 #aboutfahad h2 {
   position: absolute;
@@ -368,22 +398,23 @@ p {
 }
 
 #aboutfahad p {
-    width: 11em;
+    width: 18em;
     margin-right: auto;
-    margin-left: 2em;
-    padding: 1em;
+    margin-left: -3em;
+    padding: 4px;
     position: absolute;
     margin-top: 1em;
     text-align: center;
     border-style: hidden;
     color: black;
+    line-height: 29px;
 }
 
 #aboutsaad {
   position: relative;
-  margin-left: 26em;
-  width: 15em;
-  height: 5em;
+  margin: auto;
+  width: 216px;
+  top: 39em;
 
 }
 
@@ -397,22 +428,21 @@ p {
 
 #aboutsaad p {
     width: 15em;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: -26px;
     padding: 1em;
     position: absolute;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0em;
     border-color: black;
     border-style: hidden;
     color: black;
 }
 
 #aboutsunny {
-  position: relative;
-  margin-left: 27em;
-  width: 15em;
-  height: 5em;
+    position: relative;
+    margin: auto;
+    width: 250px;
+    top: 35em;
 }
 
 #aboutsunny h2 {
@@ -425,20 +455,21 @@ p {
 #aboutsunny p {
     width: 16em;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -28px;
     padding: 1em;
     position: absolute;
-    margin-top: 1em;
+    margin-top: 0em;
     border-color: black;
     border-style: hidden;
     color: black;
+    text-align: center;
 }
 
 #aboutayesha {
     position: relative;
-    margin-left: -5em;
-    width: 15em;
-    height: 5em;
+    margin: auto;
+    width: 337px;
+    top: 30em;
 }
 
 #aboutayesha h2 {
@@ -451,8 +482,7 @@ p {
 #aboutayesha p {
     width: 19em;
     margin-right: auto;
-    margin-left: auto;
-    padding: 1em;
+    margin-left: -76px;
     position: absolute;
     margin-top: 1em;
     border-style: hidden;
@@ -461,7 +491,7 @@ p {
 
 /******** OUR STORY PAGE **********/
 
-#ourstorypage {
+#things {
   color: red;
   text-align:center;
   display: grid;
@@ -482,48 +512,166 @@ p {
     width: 100%;
 }
 
-#thisis2 {
-    margin-top: -2em;
+#missionstatement  {
+    margin-top: 1em;
     color: black;
     background-color: red;
     border: solid 14px;
     font-family: monospace;
     font-size: 3em;
+    text-align: center;
   }
 
+ .grid-container {
+  grid-row-gap: 3em;
+  display: grid;
+ } 
 
-/* .musictwo {
- text-align: center;
- background-color: red;
- display: inherit;
- text-transform: unset;
- padding-left: 0em;
- padding-right: 0em;
- font-size: 3em;
- font-weight: bolder;
- font-family: monospace;
- width: 11em;
- margin-left: -3em;
- border-style: solid;
-}*/
+ #musicinspired {
+  padding: 1em;
+  background: black;
+  text-align: center;
+  width: 20em;
+  margin: auto auto 1em auto;
+ }
 
-
-#storystory {
-  color: purple;
-  margin: -2em 2em 0em -6em;
+#elevate {
+  color: black;
+  background-color: white;
+  text-align: center;
 }
 
 
-
-/******** Join Us Section *************/
-
+#vision2 {
+  background-color: white;
+  text-align: center;
+  font-size: 4em;
+  color: black;
+  font-weight: 600;
+  margin-top: 1em;
+}
 
 .joinheading {
   color: black;
   padding: 3em;
   text-align: center;
   font-family: fantasy;
+  margin-top: -3em;
 }
+
+#thisis2 {
+  background: url('../images/thisis2.png') no-repeat;
+  padding: 10em;
+  background-position: center;
+}
+
+#pic1 {
+  background: url('../images/pic1.5.png') no-repeat;
+  padding: 16em;
+  background-size: 100% auto;
+  min-height: 495px;
+  background-attachment: fixed;
+}
+
+#pic2 {
+  background: url('../images/pic2.png') no-repeat;
+  padding: 10em;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  min-height: 800px;
+}
+
+#joy {
+  background: url('../images/jb.png') no-repeat;
+  padding: 13em;
+  background-position: center;
+  background-color: black;
+  margin: -2em;
+  margin-top: 4em;
+  border: solid red;
+}
+
+hr {
+    border: 1em solid red 7px;
+  }  
+
+#beats {
+  background: url('../images/js.png') no-repeat;
+  padding: 13em;
+  background-position: center;
+}
+
+#nycmade {
+  background:url('../images/nycmade.png') no-repeat;
+  padding: 10em;
+  background-position: center;
+  margin-right: 2em;
+}
+
+#nycpic {
+  background: url('../images/nycpic.jpg') no-repeat;
+  padding: 10em;
+  background-position: center;
+}
+
+.we-are {
+  background-position: center;
+  background: url('../images/weare.jpg') no-repeat;
+  padding: 5em;
+}
+
+.coll {
+  text-align: center;
+  list-style-type: none;
+  line-height: 46px;
+  margin-left: -6px;
+
+}
+ 
+
+/************ Form Section *******************/  
+
+.col:first-child {
+    margin-left: 0;
+    color: black;
+
+  }  
+
+.connect {
+  background: url('../images/connect.jpg') no-repeat;
+  padding: 10em;
+  background-position: center;
+}
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+    float: right;
+    line-height: 2em;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+
+
 
 /******** Large Size ********/
 @media screen and (min-width: 1200px) {
@@ -542,7 +690,8 @@ p {
     margin-left: auto;
     padding-right: 40em;
     
-  }  
+  } 
+
 }
 
 
@@ -821,61 +970,74 @@ p {
     margin-left: 2em;
  }   
 
+
+ .panel-footer {
+    padding: 3em;
+    background-color: black;
+    margin-top: -3em;
+    border-radius: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
 /****** About Us Page *****/
 
 
 
 #fahad {
   background: url('../images/fahadmed.png') no-repeat ;
-  top: -6.5em;
+  background-position: center;
+  height: -webkit-fill-available;
+  top: -6em;
+  position: relative;
 }
 
 #sunny {
   background: url('../images/sunnymed.png') no-repeat ;
-  top: -384px;
-  margin-left: -1.5em;
+  top: -10em;
+  margin-left: -0.5em;
+  background-position: center;
+  height: 25em;
 }
 
 #ayesha {
   background: url('../images/ayesha2med.png') no-repeat ;
-  padding: 15em;
-  margin-top: -20em;
-  margin-left: -1em;
+  top: -6em;
+  height: 25em;
 }
 
 #saad {
   background: url('../images/saadmed.png') no-repeat ;
-  top: -267px;
-  margin-left: -1.5em;
+  background-position: center;
+  height: 21.5em;
+  top: -13em;
 }
 
 #aboutfahad {
     position: relative;
-    margin-left: 1em;
-    margin-top: -8em;
+    margin-top: -7em;
 
 }
 
 #aboutfahad h2 {
-  position: absolute;
-  margin: 0em;
+    position: absolute;
+    margin: 0em;
+    top: 23em;
 
 }
 
 #aboutfahad p {
-    margin-right: auto;
-    margin-left: auto;
     padding: 1em;
     position: absolute;
-    margin-top: 1em;
-    text-align: center;
+    top: 43em;
+    line-height: 28px;
     border-style: hidden;
 }
 
 #aboutsaad {
   position: relative;
-  margin-left: 10em;
-  margin-top: -6em;
+  margin-top: -18em;
   
 }
 
@@ -884,20 +1046,10 @@ p {
   margin: 0em;
 }
 
-#aboutsaad p {
-    width: 15em;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1em;
-    position: absolute;
-    margin-top: 1em;
-    border-style: hidden;
-}
 
 #aboutsunny {
-  position: relative;
-  margin-left: 13em;
-  margin-top: -8em;
+  margin-top: -14em;
+  left: 1em;
 }
 
 #aboutsunny h2 {
@@ -905,25 +1057,16 @@ p {
   margin: 0em;
 }
 
-#aboutsunny p {
-    width: 16em;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1em;
-    position: absolute;
-    margin-top: 1em;
-    border-style: hidden;
-}
 
 #aboutayesha {
     position: relative;
-    margin-left: -14em;
-    margin-top: -10em;
+ /*   margin-left: -14em;*/
+    margin-top: -16em;
 }
 
 #aboutayesha h2 {
   position: absolute;
-  margin: -0.5em;
+  margin: 0em;
   left: 1em;
 
 }
@@ -948,6 +1091,8 @@ p {
     margin-top: 1em;
     margin-left: 2em;
     width: auto;
+    text-align: center;
+    color: cornsilk;
 
    } 
 
@@ -955,8 +1100,8 @@ p {
     width: auto;
     margin-top: -1em;
     margin-left: auto;
-    display: inherit; 
-   } 
+    display: contents;  
+    } 
 
 
 #decompress, #charge, #inspired { 
@@ -966,7 +1111,7 @@ p {
 
 .panel-footer {
   margin-top: 2em;
-  margin-left: -1em;
+  margin-left: 0em;
 }
 
 #thunder {
@@ -996,36 +1141,40 @@ p {
 /*** About Us Page *********/
 
    .text-center {
-    margin-left: 11em;
+    margin-left: 5em;
     background: url('../images/teamsm.png') no-repeat;
     padding: 3em;
 }
 
 #fahad {
   background: url('../images/fahadsmall4.png') no-repeat ;
-  top: -1.5em;
+  top: -0.5em;
+  left: 3em;
+  height: 39em;
 }
 
 #sunny {
   background: url('../images/sunnysmall2.png') no-repeat ;
-  top: -23.5em;
-  left: 0em;
+  top: -15.5em;
+  background-position: center;
+  height: 14em;
 }
 
 #ayesha {
   background: url('../images/ayesha2small.png') no-repeat ;
-  top: -3em;
+  top: -8em;
 }
 
 #saad {
   background: url('../images/saadsmall.png') no-repeat ;
-  top: -31em;
-  left: 0em;
+  background-position: center;
+  top: -21em;
+
 }
 
 #aboutfahad {
     position: relative;
-    margin-left: -4em;
+    margin-left: 2em;
    
 
 }
@@ -1034,60 +1183,56 @@ p {
   position: absolute;
   margin: 0em;
   font-size: initial;
+  display: none;
 
 }
 
 #aboutfahad p {
-    margin-right: auto;
-    margin-left: -1em;
-    padding: 0em;
-    position: absolute;
-    margin-top: 0em;
     font-size: small;
+    letter-spacing: 3px;
+    top: 36em;
+
 }
 
 #aboutsaad {
   position: relative;
-  margin-left: 6em;
+  letter-spacing: 5px;
+  top: 37em;
   
 }
 
 #aboutsaad h2 {
-  position: absolute;
-  margin: 0em;
-  font-size: initial;
+    left: 3em;
+    font-size: initial;
 }
 
 #aboutsaad p {
-    margin-right: auto;
-    margin-left: -2em;
-    position: absolute;
+    margin-left: 0em;
     margin-top: -1em;
     font-size: small;
  }   
 
 #aboutsunny {
-  position: relative;
-  margin-left: 7em;
-  top: 3em;
+    margin-top: -21em;
+    left: 4em;
+    letter-spacing: 5px;
 }
 
 #aboutsunny h2 {
-  position: absolute;
-  margin: 0em;
+  left: -1em;
   font-size: initial;
 }
 
 #aboutsunny p {
-    margin-left: -1em;
+    margin-left: -4em;
     font-size: small;
     margin-top: -1em;
 }
 
 #aboutayesha {
-    position: relative;
-    margin-left: -6em;
-    margin-top: -12em;
+    margin-left: 13em;
+    margin-top: -19em;
+    letter-spacing: 5px;
 }
 
 #aboutayesha h2 {
@@ -1103,4 +1248,5 @@ p {
     margin-top: .5em;
     font-size: small ;
 }
+
 
