@@ -1,13 +1,37 @@
-
 body {
     font-size: 16px;
     color: #fff;
     background-color: white;
     font-family: 'Oxygen', sans-serif;
     min-width: 82%;
+    height: 100%;
     width: 100%;
     padding: 0px !important;
     overflow-x: hidden;
+}
+
+#box {
+  /* background:green; */
+  border:solid;
+  /* width: 0%; */
+  height: 230px;
+  animation: keyframeName 5s ease-in-out 3s normal;
+     
+}
+
+@keyframes keyframeName {
+  0% {
+      background: red;
+      width: 10%;
+  }
+  50% {
+      background: red;
+      width: 50%;
+  }
+  100% {
+      background: red;
+      width: 100%;
+  }
 }
 
 /** HEADER **/
@@ -15,11 +39,14 @@ body {
   background-color: black;
   border-radius: 83px;
   margin-top: 1px;
-  margin: 10px
+  margin: 10px;
   height: 215px;
  
 }
 
+h1 {
+  color: red;
+}
 
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -32,14 +59,14 @@ body {
 }       
 
 .navbar-default {
-background-color: #f8f8f8;
+/* background-color: #f8f8f8; */
 border-color: white;
 border-width: 25px;
 }
 
 .logo {
-    height: 20em;
-    margin-left: -18px;
+    height: 10em;
+    margin-left: 12px;
     margin-top: -2em;
 }
 
@@ -190,6 +217,11 @@ background: url('../images/decompresssm.png') no-repeat;
   background-color: red;
 }
 
+.joyVideo {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
@@ -321,9 +353,9 @@ p {
   }
    
    .copyright {   
-   font-size: 11px;
-   margin-top: -3em;
-   margin-left: 7em;
+    font-size: 11px;
+    margin-top: -3em;
+    margin-left: 27em;
 }
 
 
@@ -551,13 +583,7 @@ p {
   margin-top: 1em;
 }
 
-.joinheading {
-  color: black;
-  padding: 3em;
-  text-align: center;
-  font-family: fantasy;
-  margin-top: -3em;
-}
+
 
 #thisis2 {
   background: url('../images/thisis2.png') no-repeat;
@@ -766,7 +792,7 @@ input[type=checkbox] {
  
 
  .logo {  
-  height: 20em;
+  height: 13em;
   margin-top: -2em;
   margin-left: 1em;
  } 
@@ -842,9 +868,9 @@ p {
   }
 
   .logo {
-    height: 17em;
+    height: 11em;
     margin-top: -1em;
-    margin-left: -1em;
+    margin-left: 1em;
 }
 
 
@@ -948,8 +974,9 @@ p {
 }
 
 .logo {
-  height: 9em;
+  height: 5em;
   margin-top: -2.5em;
+  margin-left: -5px;
 }
 
 
@@ -1249,4 +1276,13 @@ p {
     font-size: small ;
 }
 
-
+.joinheading {
+  color: black;
+  padding: 3em;
+  text-align: center;
+  font-family: fantasy;
+  margin-top: 41em;
+  background-color: red;
+  width: 122%;
+  margin-left: -2em;
+}
