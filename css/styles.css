@@ -217,7 +217,7 @@ background: url('../images/decompresssm.png') no-repeat;
   background-color: red;
 }
 
-.joyVideo {
+.videoSection {
   display: flex;
   justify-content: center;
 }
@@ -792,7 +792,7 @@ input[type=checkbox] {
  
 
  .logo {  
-  height: 13em;
+  height: 12em;
   margin-top: -2em;
   margin-left: 1em;
  } 
