@@ -1,0 +1,1288 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+    min-width: 82%;
+    height: 100%;
+    width: 100%;
+    padding: 0px !important;
+    overflow-x: hidden;
+}
+
+#box {
+  /* background:green; */
+  border:solid;
+  /* width: 0%; */
+  height: 230px;
+  animation: keyframeName 5s ease-in-out 3s normal;
+     
+}
+
+@keyframes keyframeName {
+  0% {
+      background: red;
+      width: 10%;
+  }
+  50% {
+      background: red;
+      width: 50%;
+  }
+  100% {
+      background: red;
+      width: 100%;
+  }
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: black;
+  border-radius: 83px;
+  margin-top: 1px;
+  margin: 10px;
+  height: 215px;
+ 
+}
+
+h1 {
+  color: red;
+}
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: red;
+  }
+  
+.navbar-default .navbar-toggle {
+    border-color: red;
+
+}       
+
+.navbar-default {
+/* background-color: #f8f8f8; */
+border-color: white;
+border-width: 25px;
+}
+
+.logo {
+    height: 10em;
+    margin-left: 12px;
+    margin-top: -2em;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'spicy rice', fantasy;
+    color: black;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px;
+    margin-top: 23px;
+    margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  background-color: white;
+}
+
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  }
+
+#nav-list a {
+    color: wheat;
+    text-align: center;
+    font-family: 'spicy rice', fantasy;
+    margin-top: 35px;
+    width: 155px;
+    font-size: 58px;
+    margin-left: 20px;
+
+  }
+
+#nav-list a:hover {
+  background-color: red;
+}
+
+.logo a:hover {
+  background-color: red;
+}
+
+
+/*** Header ends *****/
+
+/* HOME PAGE */
+
+.jumbotron {
+  background-color: white;
+}
+
+
+ .belief {
+  display: inherit;
+  color: black;
+  font-family: inherit;
+  text-align: center;
+  margin-left: 1000px;
+  padding-left: 0;
+  margin-right: 345px;
+  margin-top: 185px;
+  font-size: x-large;
+  width: max-content;
+  text-align: -webkit-match-parent;
+}
+
+.music {
+ text-align: center;
+ background-color: red;
+ display: inherit;
+ text-transform: unset;
+ padding-left: 0em;
+ padding-right: 0em;
+ font-size: 3em;
+ font-weight: bolder;
+ font-family: monospace;
+ width: 11em;
+ margin-left: -3em;
+ border-style: solid;
+}
+  
+
+ .thisis {
+  background: url('../images/thisismedium.png') no-repeat ;
+  padding: 13em;
+  margin-left: 63em;
+  margin-top: 25em;
+
+
+}
+
+.red {
+ padding: 110px;
+ background-color: red;
+ padding: 2em;
+ border-style: solid;
+ border-color: black;
+ margin-top: inherit;
+
+  }
+
+
+h5 {
+  font-size: 2em;
+  width: 19em;
+  margin-left: -7em;
+  margin-top: -3em;
+}
+
+.musicinspired {
+ background: url('../images/musicinspiredwell.png') no-repeat;
+ padding: 115px;
+ margin-left: 560px;
+
+}
+
+#thunder {
+  background: url('../images/thundersm.png') no-repeat;
+  text-align: center;
+  padding: 6em;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+#decompress {
+background: url('../images/decompresssm.png') no-repeat;
+}
+
+#charge {
+  background: url('../images/energizesm.png') no-repeat;
+}
+
+#inspired {
+  background: url('../images/inspiredsm.png') no-repeat;
+  margin-left: 1em;
+}
+
+#music{
+  background-color: red;
+}
+
+.videoSection {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+p {  
+    margin: -22em;
+    margin-top: 1em;
+    border-style: solid;
+    margin-bottom: 1em;
+    padding: 0em;
+
+ } 
+
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    color: black;
+    margin-top: 17em;
+    width: 100px;
+    padding: 0em;
+}
+
+/******** HOME TILES ON THE BOTTOM ******************/
+
+#decompress, #charge, #inspired {
+    text-align: center;
+    height: 9em;
+    margin-top: 5em;
+    position: relative;
+    border: 13px solid red;
+    overflow: hidden;
+    width: 23em;
+    margin-bottom: 2em;
+    height: 9em;
+    margin: 0em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inspired:hover, #charge:hover, #decompress:hover {
+  background-color: red;
+
+
+}
+
+/********** ANIMATIONS ***************/
+.js--wp-1 {
+ -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-2 {
+ -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  opacity: 0;
+
+}
+
+.js--wp-1.animated {
+  opacity: 1;
+}
+
+.js--wp-2.animated {
+  opacity: 1;
+}
+
+
+
+
+/*Pannel Footer */
+
+  #wrapper {
+    width: auto;
+    margin-top: -1em;
+    margin-left: auto;
+    display: -webkit-box;
+
+ }
+
+ .box {
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: red;
+  display: inline-flex;
+ }
+
+#instagram {
+  background: url('../images/ig.png')no-repeat;
+  padding: 32px;
+  background-color: white;
+}
+
+#soundcloud {
+ background: url('../images/sound1.png')no-repeat;
+ padding: 32px;
+ background-color: white;
+}
+
+#spotify {
+ background: url('../images/spot.png')no-repeat;
+ padding: 32px;
+ background-color: white;
+}
+
+#youtube {
+ background: url('../images/you.png')no-repeat;
+ padding: 32px;
+ background-color: white;
+}
+
+
+.panel-footer {
+    padding: 3em;
+    background-color: black;
+    margin-top: 7em;
+    border-radius: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+  .ourteam, .ourstory, .getinvolved {
+    color: white;
+  }
+
+  #contact {
+    line-height: 2em;
+    float: right;
+  }
+   
+   .copyright {   
+    font-size: 11px;
+    margin-top: -3em;
+    margin-left: 27em;
+}
+
+
+/******* Our Team Page ****************/
+
+
+.text-center {
+    text-align: center;
+    color: red;
+    margin-left: 9em;
+    background: url('../images/team.png') no-repeat;
+    padding: 2em;
+}
+
+
+#fahad {
+  background: url(../images/fahad3.png) no-repeat;
+  background-position: center;
+  height: -webkit-fill-available;
+  position: relative;
+  top: 5em;
+}
+
+#sunny {
+  background: url(../images/sunny.png) no-repeat;
+  height: -webkit-fill-available;
+  background-position: center;
+  position: relative;
+}
+
+#ayesha {
+  background: url(../images/ayesha2.png) no-repeat;
+  height: -webkit-fill-available;
+  left: -1em;
+  width: 120%;
+  top: 15em;
+  position: relative;
+}
+
+#saad {
+  background: url(../images/saad.png) no-repeat;
+  height: -webkit-fill-available;
+  background-position: center;
+  position: relative;
+  top: 2em;
+
+}
+
+
+.container {
+    width: 60em;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+#aboutfahad {
+    position: relative;
+    width: 205px;
+    margin: auto;
+    margin-top: 43em;
+  }
+
+#aboutfahad h2 {
+  position: absolute;
+  margin: 0em;
+  font-family: monospace;
+  color: red;
+
+}
+
+#aboutfahad p {
+    width: 18em;
+    margin-right: auto;
+    margin-left: -3em;
+    padding: 4px;
+    position: absolute;
+    margin-top: 1em;
+    text-align: center;
+    border-style: hidden;
+    color: black;
+    line-height: 29px;
+}
+
+#aboutsaad {
+  position: relative;
+  margin: auto;
+  width: 216px;
+  top: 39em;
+
+}
+
+#aboutsaad h2 {
+  position: absolute;
+  margin: 0em;
+  font-family: monospace;
+  color: red;
+
+}
+
+#aboutsaad p {
+    width: 15em;
+    margin-left: -26px;
+    padding: 1em;
+    position: absolute;
+    text-align: center;
+    margin-top: 0em;
+    border-color: black;
+    border-style: hidden;
+    color: black;
+}
+
+#aboutsunny {
+    position: relative;
+    margin: auto;
+    width: 250px;
+    top: 35em;
+}
+
+#aboutsunny h2 {
+  position: absolute;
+  margin: 0em;
+  font-family: monospace;
+  color: red;
+}
+
+#aboutsunny p {
+    width: 16em;
+    margin-right: auto;
+    margin-left: -28px;
+    padding: 1em;
+    position: absolute;
+    margin-top: 0em;
+    border-color: black;
+    border-style: hidden;
+    color: black;
+    text-align: center;
+}
+
+#aboutayesha {
+    position: relative;
+    margin: auto;
+    width: 337px;
+    top: 30em;
+}
+
+#aboutayesha h2 {
+  position: absolute;
+  margin: -1em;
+  font-family: monospace;cursive;
+  color: red;
+}
+
+#aboutayesha p {
+    width: 19em;
+    margin-right: auto;
+    margin-left: -76px;
+    position: absolute;
+    margin-top: 1em;
+    border-style: hidden;
+    color: black;
+}
+
+/******** OUR STORY PAGE **********/
+
+#things {
+  color: red;
+  text-align:center;
+  display: grid;
+  grid-row-gap: 6em;
+  position: relative; 
+}
+
+#story2 {
+    margin-top: -2em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.vision {
+   background:url('../images/joybeatsthunder.png') no-repeat;
+    margin: 3em 0em 12em;
+    block-size: 100%;
+    width: 100%;
+}
+
+#missionstatement  {
+    margin-top: 1em;
+    color: black;
+    background-color: red;
+    border: solid 14px;
+    font-family: monospace;
+    font-size: 3em;
+    text-align: center;
+  }
+
+ .grid-container {
+  grid-row-gap: 3em;
+  display: grid;
+ } 
+
+ #musicinspired {
+  padding: 1em;
+  background: black;
+  text-align: center;
+  width: 20em;
+  margin: auto auto 1em auto;
+ }
+
+#elevate {
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+
+
+#vision2 {
+  background-color: white;
+  text-align: center;
+  font-size: 4em;
+  color: black;
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+
+
+#thisis2 {
+  background: url('../images/thisis2.png') no-repeat;
+  padding: 10em;
+  background-position: center;
+}
+
+#pic1 {
+  background: url('../images/pic1.5.png') no-repeat;
+  padding: 16em;
+  background-size: 100% auto;
+  min-height: 495px;
+  background-attachment: fixed;
+}
+
+#pic2 {
+  background: url('../images/pic2.png') no-repeat;
+  padding: 10em;
+  background-size: 100% auto;
+  background-attachment: fixed;
+  min-height: 800px;
+}
+
+#joy {
+  background: url('../images/jb.png') no-repeat;
+  padding: 13em;
+  background-position: center;
+  background-color: black;
+  margin: -2em;
+  margin-top: 4em;
+  border: solid red;
+}
+
+hr {
+    border: 1em solid red 7px;
+  }  
+
+#beats {
+  background: url('../images/js.png') no-repeat;
+  padding: 13em;
+  background-position: center;
+}
+
+#nycmade {
+  background:url('../images/nycmade.png') no-repeat;
+  padding: 10em;
+  background-position: center;
+  margin-right: 2em;
+}
+
+#nycpic {
+  background: url('../images/nycpic.jpg') no-repeat;
+  padding: 10em;
+  background-position: center;
+}
+
+.we-are {
+  background-position: center;
+  background: url('../images/weare.jpg') no-repeat;
+  padding: 5em;
+}
+
+.coll {
+  text-align: center;
+  list-style-type: none;
+  line-height: 46px;
+  margin-left: -6px;
+
+}
+ 
+
+/************ Form Section *******************/  
+
+.col:first-child {
+    margin-left: 0;
+    color: black;
+
+  }  
+
+.connect {
+  background: url('../images/connect.jpg') no-repeat;
+  padding: 10em;
+  background-position: center;
+}
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+    float: right;
+    line-height: 2em;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+
+
+
+/******** Large Size ********/
+@media screen and (min-width: 1200px) {
+  .jumbotron { 
+    background-color: black;
+    background: url('../images/djlarge.png') no-repeat;
+    height: 75em;
+    margin-top: -8em;
+    margin-left: -15em;
+    }
+
+  .musicinspired {
+    margin-left: auto;
+    padding: 4em;
+    width: fit-content;
+    margin-left: auto;
+    padding-right: 40em;
+    
+  } 
+
+}
+
+
+
+/********** Medium devices only **********/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .jumbotron {
+    background: url('../images/djmedium') no-repeat;
+    height: 1000px;
+    margin: -20em;
+    margin-top: -2em;
+   }
+
+  .belief {
+    margin-left: 30em;
+    margin-right: 20em;
+    text-align: -webkit-center;
+  }
+
+  .red {
+    margin-top: -4em;
+    height: 10em;
+  }
+
+  .musicinspired {
+  background: url('../images/musicinspiredwell.png') no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  padding-left: 35em;
+
+  }
+
+  .music {
+    margin-left: 0em;
+    font-size: 3em
+ 
+  }
+
+  p {
+    margin: -27em;
+    margin-top: 2em;
+    border-style: solid;
+    margin-bottom: 0em;
+    text-align: center;
+  }
+
+  h5 {
+    margin-top: 4em;
+  }
+
+  .thisis {
+    background: url('../images/thisissmall.png') no-repeat ;
+    margin-left: 57em;
+    margin-top: 7em;
+  }
+
+   .navbar-right {
+    float: right!important;
+    margin-right: 5em;
+   }
+
+   #nav-list a {
+    width: 100px;
+   } 
+
+  #header-nav {
+  border-radius: 10em;
+  margin-top: 0em;
+  width: 70em;
+}
+ 
+
+ .logo {  
+  height: 18em;
+  margin-top: -2em;
+  margin-left: 1em;
+ } 
+
+}
+
+/********** Small devices only Ipads **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .jumbotron {
+    background: url('../images/djsmall') no-repeat;
+    margin: -18em;
+    margin-top: -1em;
+    background-color: white;
+  }
+
+  .belief {
+    margin-left: 20em;
+    width: 27em;
+    text-align: center;
+  }
+
+  .music {
+    font-size: 31px;
+    margin-left: 165px;
+  }
+
+  .thisis {
+    background: url('../images/thisissmall.png') no-repeat ;
+    margin-top: 6em;
+    margin-left: 43em;
+} 
+
+.red {
+  margin-top: -5em;
+  padding: 0em;
+  margin-right: 8em;
+}
+
+.musicinspired {
+padding: 3em;
+margin-left: 14em;
+ background: url('../images/musicinspiredwell2.png') no-repeat;
+
+}
+ 
+ h5 {
+    margin-top: 0em;
+    margin-left: -6em;
+ }
+
+p {
+    margin: -11em;
+    margin-top: 1em;
+    margin-left: -20em;
+    border-style: solid;
+    padding: 1em;
+    margin-right: -23em;
+    margin-bottom: 1em;
+    text-align: center;
+    
+}
+
+#nav-list a {
+   width: 100px;
+  font-size: 45px;
+
+ }
+
+ .navbar-right {
+    float: right!important;
+    margin-right: 3em;
+
+  }
+
+  .logo {
+    height: 11em;
+    margin-top: -1em;
+    margin-left: 1em;
+}
+
+
+#header-nav {
+    background-color: black;
+    border-radius: 7em;
+    margin-top: 0em;
+    margin-left: 0em;
+    margin-right: 2em;
+}
+
+}
+
+/********** Extra Small *********************/
+@media (max-width: 767px) {
+  .jumbotron {
+  background: url('../images/djvsmall') no-repeat;
+  height: 23em;
+  margin-top: -1em;
+  margin-left: -9em;
+  }  
+
+#thunder {
+ background: url('../images/thundersm.png') no-repeat;
+ margin-left: auto;
+ margin-top: auto;
+ margin-top: 1em;
+ padding: 6em;
+}
+
+#wrapper {
+    width: auto;
+    margin-top: -1em;
+    margin-left: auto;
+    display: -webkit-box;
+  }
+
+#charge {
+  background: url('../images/energizesm.png') no-repeat;
+}
+
+#inspired {
+  background: url('../images/inspiredsm.png') no-repeat;
+}
+
+ .thisis {
+    background: url('../images/thisissmallest.png') no-repeat ;
+    margin-top: 9em;
+    margin-left: 24em;
+} 
+
+
+
+div .belief {
+    margin-left: 17em;
+    margin-top: 1em;
+    font-size: unset;
+    text-align: center;
+  }
+
+ div .music {
+    font-size: 15px;
+    margin-left: 1em;
+    width: 12em;
+  }
+
+ h5 {
+  padding: 1em;
+  margin: -5em;
+  text-align: center;
+  margin-left: -180px;
+  font-size: 24px;
+  margin-top: -9em;
+  
+}
+
+p {
+    padding: 1em;
+    margin: -8em;
+    margin-top: 7em;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+.red {
+  background-color: red;
+  margin-top: -13em;
+  padding: 0em;
+  width: auto;
+}
+
+.musicinspired {
+  background: url(../images/musicinspiredwellsmall.png) no-repeat;
+  padding: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  padding-left: 12em;
+  padding-right: 2em;
+  
+}
+
+.logo {
+  height: 5em;
+  margin-top: -2.5em;
+  margin-left: -5px;
+}
+
+
+.navbar-nav {
+  padding-left: 5em;
+
+ } 
+
+#nav-list a {
+  font-size: 30px;
+
+ }
+
+
+.copyright {
+    font-size: 11px;
+    margin-top: -3em;
+    margin-left: 2em;
+ }   
+
+
+ .panel-footer {
+    padding: 3em;
+    background-color: black;
+    margin-top: -3em;
+    border-radius: 7em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+/****** About Us Page *****/
+
+
+
+#fahad {
+  background: url('../images/fahadmed.png') no-repeat ;
+  background-position: center;
+  height: -webkit-fill-available;
+  top: -6em;
+  position: relative;
+}
+
+#sunny {
+  background: url('../images/sunnymed.png') no-repeat ;
+  top: -10em;
+  margin-left: -0.5em;
+  background-position: center;
+  height: 25em;
+}
+
+#ayesha {
+  background: url('../images/ayesha2med.png') no-repeat ;
+  top: -6em;
+  height: 25em;
+}
+
+#saad {
+  background: url('../images/saadmed.png') no-repeat ;
+  background-position: center;
+  height: 21.5em;
+  top: -13em;
+}
+
+#aboutfahad {
+    position: relative;
+    margin-top: -7em;
+
+}
+
+#aboutfahad h2 {
+    position: absolute;
+    margin: 0em;
+    top: 23em;
+
+}
+
+#aboutfahad p {
+    padding: 1em;
+    position: absolute;
+    top: 43em;
+    line-height: 28px;
+    border-style: hidden;
+}
+
+#aboutsaad {
+  position: relative;
+  margin-top: -18em;
+  
+}
+
+#aboutsaad h2 {
+  position: absolute;
+  margin: 0em;
+}
+
+
+#aboutsunny {
+  margin-top: -14em;
+  left: 1em;
+}
+
+#aboutsunny h2 {
+  position: absolute;
+  margin: 0em;
+}
+
+
+#aboutayesha {
+    position: relative;
+ /*   margin-left: -14em;*/
+    margin-top: -16em;
+}
+
+#aboutayesha h2 {
+  position: absolute;
+  margin: 0em;
+  left: 1em;
+
+}
+
+#aboutayesha p {
+    width: 19em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    position: absolute;
+    margin-top: 1em;
+    border-style: hidden;
+}
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 7) **********/
+@media (max-width: 479px) {
+
+.copyright {
+    font-size: 11px;
+    margin-top: 1em;
+    margin-left: 2em;
+    width: auto;
+    text-align: center;
+    color: cornsilk;
+
+   } 
+
+   #wrapper {
+    width: auto;
+    margin-top: -1em;
+    margin-left: auto;
+    display: contents;  
+    } 
+
+
+#decompress, #charge, #inspired { 
+  margin-left: 1em;
+
+}
+
+.panel-footer {
+  margin-top: 2em;
+  margin-left: 0em;
+}
+
+#thunder {
+ margin-left: 7em;
+}
+
+p {
+  border-color: red;
+  border-radius: 3em;
+  margin-right: -8em;
+  margin-top: 5em;
+}
+
+.musicinspired {
+ margin-left: 164.5px;
+}
+
+
+.text-center {
+   text-align: center;
+    color: red;
+    margin-right: -11em;
+    font-size: small;
+    margin-top: -13px;
+  }  
+
+/*** About Us Page *********/
+
+   .text-center {
+    margin-left: 5em;
+    background: url('../images/teamsm.png') no-repeat;
+    padding: 3em;
+}
+
+#fahad {
+  background: url('../images/fahadsmall4.png') no-repeat ;
+  top: -0.5em;
+  left: 3em;
+  height: 39em;
+}
+
+#sunny {
+  background: url('../images/sunnysmall2.png') no-repeat ;
+  top: -15.5em;
+  background-position: center;
+  height: 14em;
+}
+
+#ayesha {
+  background: url('../images/ayesha2small.png') no-repeat ;
+  top: -8em;
+}
+
+#saad {
+  background: url('../images/saadsmall.png') no-repeat ;
+  background-position: center;
+  top: -21em;
+
+}
+
+#aboutfahad {
+    position: relative;
+    margin-left: 2em;
+   
+
+}
+
+#aboutfahad h2 {
+  position: absolute;
+  margin: 0em;
+  font-size: initial;
+  display: none;
+
+}
+
+#aboutfahad p {
+    font-size: small;
+    letter-spacing: 3px;
+    top: 36em;
+
+}
+
+#aboutsaad {
+  position: relative;
+  letter-spacing: 5px;
+  top: 37em;
+  
+}
+
+#aboutsaad h2 {
+    left: 3em;
+    font-size: initial;
+}
+
+#aboutsaad p {
+    margin-left: 0em;
+    margin-top: -1em;
+    font-size: small;
+ }   
+
+#aboutsunny {
+    margin-top: -21em;
+    left: 4em;
+    letter-spacing: 5px;
+}
+
+#aboutsunny h2 {
+  left: -1em;
+  font-size: initial;
+}
+
+#aboutsunny p {
+    margin-left: -4em;
+    font-size: small;
+    margin-top: -1em;
+}
+
+#aboutayesha {
+    margin-left: 13em;
+    margin-top: -19em;
+    letter-spacing: 5px;
+}
+
+#aboutayesha h2 {
+  position: absolute;
+  margin-left: -10em;
+  font-size: initial;
+
+}
+
+#aboutayesha p {
+    margin-left: -12em;
+    position: absolute;
+    margin-top: .5em;
+    font-size: small ;
+}
+
+.joinheading {
+  color: black;
+  padding: 3em;
+  text-align: center;
+  font-family: fantasy;
+  margin-top: 41em;
+  background-color: red;
+  width: 122%;
+  margin-left: -2em;
+}
